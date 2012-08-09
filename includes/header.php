@@ -1,7 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <title>QUID - Quick User Interface Development Kit</title>
+<meta charset="utf-8" />
 <link type="text/css" media="all" href="<?php echo BASEURL;?>/quidkit/quid.css" rel="stylesheet" />
 <link type="text/css" media="all" href="<?php echo BASEURL;?>/quidkit/custom.css" rel="stylesheet" />
 

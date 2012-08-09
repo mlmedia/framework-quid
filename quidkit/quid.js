@@ -317,6 +317,19 @@ $(document).ready(function(){
 		}).trigger('resize');
 
 	});
+	
+	/**
+	 * Dynamic horizontal menu
+	 */
+	$('ul.dynamic_menu li').hover(function() {
+		var top = $(this).offset().top;
+		var height = $(this).outerHeight();
+		var width = $(this).outerWidth();
+		$(this).children('ul').stop().css({
+			'top':parseInt(height+top) + 'px'
+		}).slideToggle(200);
+
+    });
  
 });
 

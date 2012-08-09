@@ -6,8 +6,10 @@
 		<li><h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide Home">Guide</a></h3>
 			<ul class="list_1 margin_bottom_2">
 				<li><a href="<?php echo BASEURL;?>/guide/backgrounds.php" title="QUID ~ Backgrounds">Backgrounds</a></li>
+				<li><a href="<?php echo BASEURL;?>/guide/background_images.php" title="QUID ~ Background Images">Background Images</a></li>
 				<li><a href="<?php echo BASEURL;?>/guide/borders.php" title="QUID ~ Borders">Borders</a></li>
 				<li><a href="<?php echo BASEURL;?>/guide/buttons.php" title="QUID ~ Buttons">Buttons</a></li>
+				<li><a href="<?php echo BASEURL;?>/guide/dynamic_menu.php" title="QUID ~ Dynamic Menu">Dynamic Menu</a></li>
 				<li><a href="<?php echo BASEURL;?>/guide/fonts.php" title="QUID ~ Fonts">Fonts</a></li>
 				<li><a href="<?php echo BASEURL;?>/guide/forms.php" title="QUID ~ Forms">Forms</a></li>
 				<li><a href="<?php echo BASEURL;?>/guide/gradients.php" title="QUID ~ Gradients">Gradients</a></li>

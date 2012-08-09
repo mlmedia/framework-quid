@@ -47,6 +47,7 @@
 			<div class="padding_2">
 				<ul class="list_1">
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/backgrounds.php" title="QUID ~ Backgrounds">Backgrounds</a> - Basic backgrounds.</li>
+					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/background_images.php" title="QUID ~ Background Images">Background Images</a> - Background images.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/gradients.php" title="QUID ~ Gradients">Gradients</a> - Gradients on background elements.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/borders.php" title="QUID ~ Borders">Borders</a> - Borders and shadows.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/fonts.php" title="QUID ~ Fonts">Fonts</a> - Font families, sizes and styles.</li>
@@ -56,6 +57,7 @@
 			<h3 class="fontsize_6 margin_bottom_1" title="JavaScript">{ javascript }</h3>
 			<div class="padding_2 margin_bottom_4">
 				<ul class="list_1">
+					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/dynamic_menu.php" title="QUID ~ Dynamic Menu">Dynamic Menu</a> - Dynamic jQuery horizontal menu with sliding drawers.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/showhide.php" title="QUID ~ Show/Hide Effect">Show/Hide Effect</a> - The effect to show and hide an element without re-loading the page.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/scrollto.php" title="QUID ~ Scroll-To">Scroll-To</a> - The effect to smooth scroll from one part of a page to another.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/lightbox.php" title="QUID ~ Lightbox">Lightbox</a> - The effect to create a lightbox overlay on a page.</li>

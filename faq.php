@@ -81,8 +81,16 @@
 			<h2 class="fontsize_6">does QUID validate?</h2>
 			<div class="padding_2">
 				<p>
-					QUID does validate, however some elements may throw validation warnings.  
+					QUID validates, however some elements may throw validation warnings.  
 					See for yourself by visiting the <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.quidkit.com" title="W3C Validator" target="_blank">W3C Validator</a>.
+				</p>
+			</div>
+			
+			<h2 class="fontsize_6">can I use QUID with HTML5 elements?</h2>
+			<div class="padding_2">
+				<p>
+					Yes.  Most of the HTML5 tags you will be using are &lt;DIV&gt; equivalents, such as &lt;HEADER&gt;, &lt;ARTICLE&gt;, and &lt;FOOTER&gt;.  
+					QUID classes applied to these elements will work.
 				</p>
 			</div>
 		
@@ -96,11 +104,6 @@
 						<li class="margin_bottom_1">QUID is free to redistribute, but you cannot re-name it and provide it as your own.</li>
 						<li class="margin_bottom_1">QUID is free to modify, as long as you (1) give credit to QUID as the basis of your work, and (2) maintain the same license in your derivative work.</li>
 					</ul>
-				</p>
-				<p>
-					For example, you can sell templates that you built using the QUID kit, but you cannot provide those templates without also including the GNU General Public License. 
-					Therefore, you cannot prevent anyone from making a derivative of <i>your</i> template.  
-					In other words, you can <i>charge</i> for the derivative work but you cannot make it <i>proprietary</i>.
 				</p>
 				<p>
 					For a more detailed explanation of the GNU General Public License, visit the <a href="http://www.gnu.org/copyleft/gpl.html" title="GNU General Public License" target="_blank">GNU.org website here</a>.

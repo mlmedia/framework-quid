@@ -1011,7 +1011,7 @@ left: 0;
 
 /* =GRADIENTS
 ---------------------------------------------------------------- */
-.gradient_linear_0 {
+.gradient_0 {
 background:transparent;
 background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,1)),to(rgba(255,255,255,0))) !important;
 background:-moz-linear-gradient(top,rgba(255,255,255,1),rgba(255,255,255,0)) !important;
@@ -1021,7 +1021,7 @@ behavior:url(../css/PIE.htc);
 }
 
 
-.gradient_linear_1 {
+.gradient_1 {
 background:transparent;
 background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,.375)),to(rgba(255,255,255,0))) !important;
 background:-moz-linear-gradient(top,rgba(255,255,255,.375),rgba(255,255,255,0)) !important;
