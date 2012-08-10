@@ -1385,3 +1385,30 @@ background:-moz-linear-gradient(top,  #009900,  #33cc33);
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#009900', endColorstr='#33cc33');
 behavior:url(../css/PIE.htc);
 }
+
+/* =Drop down menu (jQuery)
+---------------------------------------------------------------- */
+ul.dynamic_menu {
+list-style-type:none;
+}
+
+
+ul.dynamic_menu li {
+float:left;
+padding:.5em;
+}
+
+ul.dynamic_menu li ul {
+display:none;
+position:absolute;
+}
+
+ul.dynamic_menu li ul li {
+list-style:none;
+clear:both;
+display:block;
+}
+
+ul.dynamic_menu li ul li a {
+padding:.5em 1em;
+}

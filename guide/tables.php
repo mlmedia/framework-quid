@@ -126,7 +126,8 @@ echo convert_code($content);
 			<h3 class="fontsize_5">{ styled }</h3>
 			<div class="padding_2">
 				<p>
-					To style a table, use the classes for <a href="<?php echo BASEURL;?>/guide/backgrounds.php" title="QUID Backgrounds">backgrounds</a> and <a href="<?php echo BASEURL;?>/guide/borders.php" title="QUID Borders">borders</a>.   
+					To style a table, use the classes for <a href="<?php echo BASEURL;?>/guide/backgrounds.php" title="QUID Backgrounds">backgrounds</a> 
+					and <a href="<?php echo BASEURL;?>/guide/borders.php" title="QUID Borders">borders</a>.   
 				</p>
 			</div>
 			

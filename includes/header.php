@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<title>QUID - Quick User Interface Development Kit</title>
+<title><?php echo isset($title) ? $title : 'Quick User Interface Development (QUID) kit'; ?></title>
 <meta charset="utf-8" />
 <link type="text/css" media="all" href="<?php echo BASEURL;?>/quidkit/quid.css" rel="stylesheet" />
 <link type="text/css" media="all" href="<?php echo BASEURL;?>/quidkit/custom.css" rel="stylesheet" />
@@ -34,11 +34,14 @@ font-weight:normal !important;
 // convert code to viewable text
 function convert_code($content)
 {
-	if(version_compare(PHP_VERSION,'5.2.3')== -1):
+	if(version_compare(PHP_VERSION,'5.2.3')== -1)
+	{
 		$content ='<pre class="fontsize_3 font_2" style="background-color:#333366;color:#fff;">'.htmlspecialchars($content,ENT_NOQUOTES,'UTF-8').'</pre>';
-	else:
+	}
+	else
+	{
 		$content ='<pre class="fontsize_3 font_2" style="background-color:#333366;color:#fff;">'.htmlspecialchars($content,ENT_NOQUOTES,'UTF-8',false).'</pre>';
-	endif;
+	}
 	return $content;
 }
 

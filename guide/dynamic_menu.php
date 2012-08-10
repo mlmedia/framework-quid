@@ -10,33 +10,116 @@
 				<h1 class="font_arvo fontsize_8 margin_bottom_1">
 					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo; 
 					<a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide">Guide</a> &raquo; 
-					Dynamic (jQuery) Menu
+					Dynamic Menu
 				</h1>
 				<p class="fontsize_5">
-					Use the code below to create a dynamic horizontal menu with sliding drawers for sub-menu elements.
+					Use the code below to create a dynamic horizontal jQuery menu with sliding drawers for sub-menu elements.
 				</p>
 			</div>
 			
-			<h3 class="fontsize_5">scrollto_trigger</h3>
+			<h3 class="fontsize_5">dynamic_menu</h3>
 			<div class="padding_2">
 				<p>
-					The <i>scrollto_trigger</i> class must be used on the trigger element and will animate the page to move to the top of the target element.  
-					The target element can be above or below the trigger element - so the page can animate up or down.
+					The <i>dynamic_menu</i> class is applied to the top level &lt;UL&gt; tag of the unordered list of the horizontal dynamic menu.
 				</p>
 			</div>
 			
-			<h3 class="fontsize_5">{ <i>REL</i> attribute on trigger element + <i>ID</i> on the target element }</h3>
+			<h3 class="fontsize_5">{ default }</h3>
 			<div class="padding_2">
 				<p>		
-					The <i>REL</i> attribute on the trigger element must match the <i>ID</i> on the target element.
+					The default dynamic menu is un-styled.  
 				</p>
+			</div>
+			
+			<p class="background_2 border_2 padding_2 margin_bottom_4">
+				<b>NOTE:</b> The unstyled menu may look strange without any styling. 
+				For example, the background of the drawer will be transparent.
+				This makes custom styling easier.
+			</p>
+			
+			<div class="border_2 padding_2 margin_bottom_6">
+			
+				<div class="font_2 margin_bottom_1">HTML</div>
+				<div class="margin_bottom_1">
+<?php
+$content = '<ul class="dynamic_menu">
+	<li>
+		<a href="#" class="padding_2">Top-link</a>
+		<ul>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#" class="padding_2">Top-link</a>
+		<ul>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#" class="padding_2">Top-link</a>
+		<ul>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+		</ul>
+	</li>
+</ul>';
+	
+echo convert_code($content);
+?>
+				</div>
+				<div class="font_2 margin_bottom_1">Display</div>
+				<div class="padding_2">
+					<ul class="dynamic_menu">
+						<li>
+							<a href="#" class="padding_2">Top-link</a>
+							<ul>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="padding_2">Top-link</a>
+							<ul>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="padding_2">Top-link</a>
+							<ul>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+								<li><a href="#">Sub-link</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<h3 class="fontsize_5">{ styled }</h3>
+			<div class="padding_2">
 				<p>
-					The target element <i>ID</i> can be anything alpha-numeric and must be unique on the page.  
-					For example, only use an <i>ID</i> of <i>example_1</i> once. 
-				</p>
-				<p>
-					Multiple trigger elements can be used with the same <i>REL</i>.
-					For example, when using multiple trigger elements that scroll to the top of the page as in a <i>Back to Top</i> link.
+					To style a dynamic menu, use the classes for <a href="<?php echo BASEURL;?>/guide/backgrounds.php" title="QUID Backgrounds">backgrounds</a> 
+					and <a href="<?php echo BASEURL;?>/guide/borders.php" title="QUID Borders">borders</a>.   
 				</p>
 			</div>
 			
@@ -46,125 +129,83 @@
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
 <?php
-$content = '<h3 id="example_1">Target Element</h3>
-<div class="margin_top_2">
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	</p>
-	
-	{ ... }
-	
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	</p>
-	<a href="#" class="scrollto_trigger" rel="example_1">Trigger element (click to scroll)</a>
-</div>';
+$content = '<ul class="dynamic_menu">
+	<li>
+		<a href="#" class="padding_2">Top-link</a>
+		<ul>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#" class="padding_2">Top-link</a>
+		<ul>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="#" class="padding_2">Top-link</a>
+		<ul>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+			<li><a href="#">Sub-link</a></li>
+		</ul>
+	</li>
+</ul>';
 	
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
-				<div class="background_2 padding_2">
-					<h3 id="example_1">Target element</h3>
-					<div class="margin_top_2">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						</p>
-						<a href="#" class="scrollto_trigger" rel="example_1">Trigger element (click to scroll)</a>
+				<div class="padding_2">
+					<div class="background_2">
+						<div class="gradient_0 border_2 rounded_1">
+							<ul class="dynamic_menu">
+								<li>
+									<a href="#" class="padding_2">Top-link</a>
+									<ul class="background_2">
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="padding_2">Top-link</a>
+									<ul>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="padding_2">Top-link</a>
+									<ul>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+										<li><a href="#">Sub-link</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
+			
 			<div class="margin_bottom_10"></div>
 		</div>
 		

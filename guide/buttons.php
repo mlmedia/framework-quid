@@ -19,7 +19,7 @@
 			</div>
 		
 			<p class="background_2 border_2 padding_2 margin_bottom_4">
-				<b>NOTE</b>: QUID does not address the handling of form data.  
+				<b>NOTE:</b> QUID does not address the handling of form data.  
 				For data handling, you must use a server-side language such as C#, Java, or PHP.  
 			</p>
 			
