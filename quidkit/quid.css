@@ -916,12 +916,12 @@ border-radius:0em\9; /* IE hacks - rounded corners don't work */
 /* =BACKGROUNDS
 ---------------------------------------------------------------- */
 .background_0 {
-background:#fff;
+background:#fff !important;
 color:#000;
 }
 
 .background_1 {
-background:#000;
+background:#000 !important;
 color:#fff;
 }
 
@@ -934,17 +934,17 @@ color:#9cf;
 }
 
 .background_2 {
-background:#eee;
+background:#eee !important;
 color:#000;
 }
 
 .background_3 {
-background:#ccc;
+background:#ccc !important;
 color:#000;
 }
 
 .background_4 {
-background:#333;
+background:#333 !important;
 color:#fff;
 }
 
@@ -957,7 +957,7 @@ color:#9cf;
 }
 
 .background_5 {
-background:#900;
+background:#900 !important;
 color:#fff;
 }
 
@@ -970,7 +970,7 @@ color:#9cf;
 }
 
 .background_6 {
-background:#060;
+background:#060 !important;
 color:#fff;
 }
 
@@ -983,7 +983,7 @@ color:#9cf;
 }
 
 .background_7 {
-background:#006;
+background:#006 !important;
 color:#fff;
 }
 
@@ -1214,6 +1214,112 @@ font-weight:normal;
 .fontweight_3 {
 font-weight:bold;
 }
+
+
+/* =NEW BUTTON
+---------------------------------------------------------------- */
+.newbutton {
+display:inline-block;
+zoom:1;
+*display:inline;
+vertical-align:baseline;
+margin:0 2px;
+outline:none;
+cursor:pointer;
+text-align:center;
+text-decoration:none;
+line-height:100%;
+color:#000;
+border:solid 1px transparent;
+background-color:#eee;
+}
+
+.newbutton span {
+display:block;
+padding:.5em 1em;
+background:transparent;
+background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,1)),to(rgba(255,255,255,.375))) !important;
+background:-moz-linear-gradient(top,rgba(255,255,255,1),rgba(255,255,255,.375)) !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFFF, endColorstr=#AAFFFFFF) !important;
+zoom:1;
+behavior:url(../css/PIE.htc);
+}
+
+.newbutton:hover {
+color:inherit;
+}
+
+.newbutton:hover span {
+text-decoration: none;
+background:transparent;
+background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,1)),to(rgba(255,255,255,0))) !important;
+background:-moz-linear-gradient(top,rgba(255,255,255,1),rgba(255,255,255,0)) !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFFF, endColorstr=#00FFFFFF) !important;
+zoom:1;
+behavior:url(../css/PIE.htc);
+}
+
+.newbutton:active span {
+outline:0;
+background:transparent;
+background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,0)),to(rgba(255,255,255,1))) !important;
+background:-moz-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,1)) !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#FFFFFFFF) !important;
+zoom:1;
+behavior:url(../css/PIE.htc);
+}
+
+.button_dark {
+display:inline-block;
+zoom:1;
+*display:inline;
+vertical-align:baseline;
+margin:0 2px;
+outline:none;
+cursor:pointer;
+text-align:center;
+text-decoration:none;
+line-height:100%;
+color:#fff;
+border:solid 1px transparent;
+background-color:#000;
+}
+
+.button_dark span {
+display:block;
+padding:.5em 1em;
+background:transparent;
+background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,.375)),to(rgba(255,255,255,.125))) !important;
+background:-moz-linear-gradient(top,rgba(255,255,255,.375),rgba(255,255,255,.125)) !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF, endColorstr=#22FFFFFF) !important;
+zoom:1;
+behavior:url(../css/PIE.htc);
+}
+
+.button_dark:hover {
+color:#fff;
+}
+
+.button_dark:hover span {
+text-decoration: none;
+background:transparent;
+background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,.375)),to(rgba(255,255,255,0))) !important;
+background:-moz-linear-gradient(top,rgba(255,255,255,.375),rgba(255,255,255,0)) !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF, endColorstr=#00FFFFFF) !important;
+zoom:1;
+behavior:url(../css/PIE.htc);
+}
+
+.button_dark:active span {
+outline:0;
+background:transparent;
+background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,0)),to(rgba(255,255,255,.375))) !important;
+background:-moz-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,.375)) !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#66FFFFFF) !important;
+zoom:1;
+behavior:url(../css/PIE.htc);
+}
+
 
 /* =BUTTONS
 ---------------------------------------------------------------- */

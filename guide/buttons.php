@@ -23,6 +23,36 @@
 				For data handling, you must use a server-side language such as C#, Java, or PHP.  
 			</p>
 			
+			<h3 class="fontsize_5">{ new button }</h3>
+			<div class="padding_2">
+				<p>
+					
+				</p>
+			</div>
+			
+			<div class="border_2 padding_2 margin_bottom_6">
+			
+				<div class="font_2 margin_bottom_1">HTML</div>
+				<div class="margin_bottom_1">
+<?php
+$content = '<a href="#" class="newbutton">
+	<span class="background_1">New Button</span>
+</a>';
+	
+echo convert_code($content);
+?>
+				</div>
+				<div class="font_2 margin_bottom_1">Display</div>
+				<a href="#" class="newbutton">
+					<span>New Button</span>
+				</a>
+				
+				<a href="#" class="button_dark background_1">
+					<span>New Button Dark</span>
+				</a>
+			</div>
+			
+			
 			<h3 class="fontsize_6">{ basic buttons }</h3>
 			<div class="padding_2">
 				<p>
