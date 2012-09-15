@@ -24,6 +24,5 @@
 				<li><a href="<?php echo BASEURL;?>/guide/text.php" title="QUID ~ Text">Text</a></li>
 			</ul>
 		</li>
-		<li><h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/forum/index.php" title="QUID ~ Forum">Forum</a></h3></li>
 	</ul>
 </div>

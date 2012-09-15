@@ -106,7 +106,7 @@
 			<h2 class="fontsize_7">{ extra structure }</h2>
 			<div class="padding_2">
 				<p>
-					The QUID classes below add add margins and padding to an element. 
+					The QUID classes below add margins and padding to an element. 
 					They are measured in <a href="http://en.wikipedia.org/wiki/Em_%28typography%29" target="_blank" title="Em (Wikipedia)">ems</a>, which are units of measurement relative to the size of the base font.
 				</p>
 				<p>
@@ -128,7 +128,7 @@
 				</p>
 			</div>
 			
-			<h3 class="fontsize_5">padding_top_XX + padding_bottom_XX + padding_left_XX + padding_right_XX</h3>
+			<h3 class="fontsize_5">padding_top_XX | padding_bottom_XX | padding_left_XX | padding_right_XX</h3>
 			<div class="padding_2">
 				<p>
 					Applies padding to the top, bottom, left, and right of an element, respectively.
@@ -143,7 +143,7 @@
 				</p>
 			</div>
 			
-			<h3 class="fontsize_5">margin_top_XX + margin_bottom_XX + margin_left_XX + margin_right_XX</h3>
+			<h3 class="fontsize_5">margin_top_XX | margin_bottom_XX | margin_left_XX | margin_right_XX</h3>
 			<div class="padding_2">
 				<p>
 					Applies margin to the top, bottom, left, and right of an element, respectively.

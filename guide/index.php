@@ -94,6 +94,10 @@
 							The <i>_1</i> suffix on a class will typically be used for properties with the color black.  
 							For example, <i>border_1</i> is a black border.
 						</li>
+						<li class="margin_bottom_2">
+							<b>Lowercase</b>.
+							Lowercase is used on all classes to avoid any problems with case-sensitivity.
+						</li>
 					</ul>
 				</div>
 			</div>

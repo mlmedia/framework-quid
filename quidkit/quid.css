@@ -1218,12 +1218,10 @@ font-weight:bold;
 
 /* =NEW BUTTON
 ---------------------------------------------------------------- */
-.newbutton {
+a.button {
 display:inline-block;
 zoom:1;
-*display:inline;
 vertical-align:baseline;
-margin:0 2px;
 outline:none;
 cursor:pointer;
 text-align:center;
@@ -1231,10 +1229,12 @@ text-decoration:none;
 line-height:100%;
 color:#000;
 border:solid 1px transparent;
-background-color:#eee;
+background-color:#ccc;
+*display:inline;
+*border-color:#aaa;
 }
 
-.newbutton span {
+a.button span {
 display:block;
 padding:.5em 1em;
 background:transparent;
@@ -1245,11 +1245,11 @@ zoom:1;
 behavior:url(../css/PIE.htc);
 }
 
-.newbutton:hover {
+a.button:hover {
 color:inherit;
 }
 
-.newbutton:hover span {
+a.button:hover span {
 text-decoration: none;
 background:transparent;
 background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,1)),to(rgba(255,255,255,0))) !important;
@@ -1259,7 +1259,7 @@ zoom:1;
 behavior:url(../css/PIE.htc);
 }
 
-.newbutton:active span {
+a.button:active span {
 outline:0;
 background:transparent;
 background:-webkit-gradient(linear,left top, left bottom,from(rgba(255,255,255,0)),to(rgba(255,255,255,1))) !important;
@@ -1323,7 +1323,7 @@ behavior:url(../css/PIE.htc);
 
 /* =BUTTONS
 ---------------------------------------------------------------- */
-.button {
+button.button, input[type="submit"] {
 display:inline-block;
 zoom:1;
 *display:inline;
@@ -1344,7 +1344,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endCo
 behavior:url(../css/PIE.htc);
 }
 
-.button:hover {
+button.button:hover, input[type="submit"]:hover {
 text-decoration: none;
 background:#eee;
 background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
@@ -1353,7 +1353,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endCo
 behavior:url(../css/PIE.htc);
 }
 
-.button:active {
+button.button:active, input[type="submit"]:active {
 outline:0;
 position:relative;
 top:1px;

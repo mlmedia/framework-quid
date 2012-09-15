@@ -43,13 +43,19 @@ echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
-				<a href="#" class="newbutton">
+				<a href="#" class="button">
 					<span>New Button</span>
 				</a>
 				
 				<a href="#" class="button_dark background_1">
 					<span>New Button Dark</span>
 				</a>
+				
+				<input class="button" type="submit" value="Submit" />
+				
+				<button class="button_dark" type="button"><span>New Button Dark</span></button>
+				
+				<input class="button button_3" type="submit" value="Submit" />
 			</div>
 			
 			
