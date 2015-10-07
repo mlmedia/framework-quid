@@ -97,9 +97,9 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
             $(window).resize(setOverlayHeight)
                      .resize(setSelfPosition)
                      .scroll(setSelfPosition);
-                     
+
             $(window).bind('keyup.lightbox_me', observeKeyPress);
-                     
+
             if (opts.closeClick) {
                 $overlay.click(function(e) { closeLightbox(); e.preventDefault; });
             }
@@ -109,7 +109,7 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
             $self.bind('close', closeLightbox);
             $self.bind('reposition', setSelfPosition);
 
-            
+
 
             /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
               -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -134,7 +134,7 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
                 }
 
                 $iframe.remove();
-                
+
 				// clean up events.
                 $self.undelegate(opts.closeSelector, "click");
 
@@ -161,7 +161,7 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
             function setOverlayHeight() {
                 if ($(window).height() < $(document).height()) {
                     $overlay.css({height: $(document).height() + 'px'});
-                     $iframe.css({height: $(document).height() + 'px'}); 
+                     $iframe.css({height: $(document).height() + 'px'});
                 } else {
                     $overlay.css({height: '100%'});
                     if (ie6) {
@@ -273,32 +273,32 @@ $(document).ready(function(){
 		$('.show_target#' + target_id).animate({ opacity:'toggle', height:'toggle' },200);
 		e.preventDefault();
     });
-	
+
 	// scroll-to effect
 	$('a.scrollto_trigger').live('click', function(e) {
 		var target_id = $(this).attr('rel');
 		$('html, body').animate({scrollTop:$("#" + target_id).offset().top}, 600);
 		e.preventDefault();
 	});
-		
+
 	// open lightbox based on rel
 	$('.lightbox_target').hide(); // hide by default - if JS is off, it shows by default - graceful degradation
 	$('.lightbox_close').css('cursor', 'pointer'); // the lightbox close trigger should have the pointer hand so it "seems" like a link, even when it isn't
 	$('.lightbox_trigger').live('click', function(e){
 		var target_id = $(this).attr('rel');
 		$('.lightbox_target#'+target_id).lightbox_me({
-			centered: true, 
+			centered: true,
 			closeSelector: '.lightbox_close'
 		});
 		e.preventDefault();
 	});
-	
+
 	// auto re-size background images to fit window
 	$(window).load(function() {
-	
+
 		var theWindow = $(window);
 		var $bg = $(".background_image");
-		var aspectRatio = $bg.width() / $bg.height();				
+		var aspectRatio = $bg.width() / $bg.height();
 		function resizeBg() {
 			if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
 				if ($.browser.msie && parseInt($.browser.version, 10) < 8) {
@@ -317,7 +317,7 @@ $(document).ready(function(){
 		}).trigger('resize');
 
 	});
-	
+
 	/**
 	 * Dynamic horizontal menu
 	 */
@@ -330,6 +330,5 @@ $(document).ready(function(){
 		}).slideToggle(200);
 
     });
- 
-});
 
+});

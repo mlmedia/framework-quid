@@ -5,30 +5,30 @@
 	<div class="wrapper_1 container_12 padding_top_1">
 
 		<div class="grid_9 alpha">
-		
+
 			<div class="border_bottom_2 margin_bottom_3">
 				<h1 class="font_arvo fontsize_8 margin_bottom_1">
-					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo; 
+					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo;
 					Guide
 				</h1>
 				<p class="fontsize_5">
-					This page gives a quick overview of the Guide to the QUID elements and classes. 
+					This page gives a quick overview of the Guide to the QUID elements and classes.
 				</p>
 			</div>
-			
+
 			<h2 class="fontsize_7 margin_bottom_2">{ how to use this guide }</h2>
 			<div class="background_2 border_2 margin_bottom_6">
 				<div class="padding_2 gradient_0">
 					<p>
-						The Guide to QUID is broken into three main sections: 
-						(1) basic HTML and structure classes, 
-						(2) style elements such as backgrounds, borders, and fonts, and 
+						The Guide to QUID is broken into three main sections:
+						(1) basic HTML and structure classes,
+						(2) style elements such as backgrounds, borders, and fonts, and
 						(3) JavaScript elements that add client-side effects such as slides, lightboxes, and scroll-to functions.
 						This is the recommended order to follow when building a site.
 					</p>
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_6 margin_bottom_1" title="Basic HTML and structure">{ basic HTML and structure }</h3>
 			<div class="padding_2">
 				<ul class="list_1">
@@ -42,7 +42,7 @@
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/buttons.php" title="QUID ~ Buttons">Buttons</a> - Image-free HTML buttons, including submit inputs and anchor buttons.</li>
 				</ul>
 			</div>
-			
+
 			<h3 class="fontsize_6 margin_bottom_1" title="Style">{ style }</h3>
 			<div class="padding_2">
 				<ul class="list_1">
@@ -53,7 +53,7 @@
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/fonts.php" title="QUID ~ Fonts">Fonts</a> - Font families, sizes and styles.</li>
 				</ul>
 			</div>
-			
+
 			<h3 class="fontsize_6 margin_bottom_1" title="JavaScript">{ javascript }</h3>
 			<div class="padding_2 margin_bottom_4">
 				<ul class="list_1">
@@ -63,7 +63,7 @@
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/lightbox.php" title="QUID ~ Lightbox">Lightbox</a> - The effect to create a lightbox overlay on a page.</li>
 				</ul>
 			</div>
-			
+
 			<h3 class="fontsize_6 margin_bottom_1" title="Commonalities of QUID">{ commonalities }</h3>
 			<div class="padding_2">
 				<p>
@@ -74,7 +74,7 @@
 				<div class="padding_2 gradient_0">
 					<ul class="list_1">
 						<li class="margin_bottom_2">
-							<b>Class nomenclature</b>.  
+							<b>Class nomenclature</b>.
 							The classes used by QUID generally use the same nomenclature by using <i>class_description_XX</i>.
 							This is to standardize the classes as best as possible while also taking out part of the guessing game when looking up a class.
 							The <i>class_description</i> part utilizes lowercase, fully-spelled-out properties (for the most part), using underscores in place of spaces.
@@ -86,12 +86,12 @@
 						</li>
 						<li class="margin_bottom_2">
 							<b><i>_0</i> suffix on color style classes</b>.
-							The <i>_0</i> suffix on a class will typically be used for properties with the color white.  
+							The <i>_0</i> suffix on a class will typically be used for properties with the color white.
 							For example, <i>background_0</i> is a white background.
 						</li>
 						<li class="margin_bottom_2">
 							<b><i>_1</i> suffix on color style classes</b>.
-							The <i>_1</i> suffix on a class will typically be used for properties with the color black.  
+							The <i>_1</i> suffix on a class will typically be used for properties with the color black.
 							For example, <i>border_1</i> is a black border.
 						</li>
 						<li class="margin_bottom_2">
@@ -101,16 +101,16 @@
 					</ul>
 				</div>
 			</div>
-			
+
 			<div class="margin_bottom_10"></div>
-			
+
 		</div>
-		
+
 		<div class="grid_3 omega">
 			<?php include(BASEPATH . '/includes/sidebar.php'); ?>
 		</div>
 		<div class="clear"></div>
-		
+
 	</div>
 </div>
 

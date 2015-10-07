@@ -5,27 +5,27 @@
 	<div class="wrapper_1 container_12 padding_top_1">
 
 		<div class="grid_9 alpha">
-		
+
 			<div class="border_bottom_2 margin_bottom_4">
 				<h1 class="font_arvo fontsize_8 margin_bottom_1">
-					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo; 
-					<a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide">Guide</a> &raquo; 
+					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo;
+					<a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide">Guide</a> &raquo;
 					Headings
 				</h1>
 				<p class="fontsize_5">
-					The following markup is used to create heading elements.  
+					The following markup is used to create heading elements.
 				</p>
 			</div>
-			
+
 			<h3 class="fontsize_5">{ default }</h3>
 			<div class="padding_2">
 				<p>
-					By default all of the heading elements are bold and the same size as the base font. 
-					This is consistent with the QUID standards of using granular classes to apply style, as opposed to ad hoc styling of each element with CSS based on page position or type. 
+					By default all of the heading elements are bold and the same size as the base font.
+					This is consistent with the QUID standards of using granular classes to apply style, as opposed to ad hoc styling of each element with CSS based on page position or type.
 				</p>
 			</div>
 			<div class="border_2 padding_2 margin_bottom_6">
-			
+
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
 <?php
@@ -49,7 +49,7 @@ echo convert_code($content);
 					<h6>Heading 6</h6>
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_5">{ styled }</h3>
 			<div class="padding_2">
 				<p>
@@ -57,7 +57,7 @@ echo convert_code($content);
 				</p>
 			</div>
 			<div class="border_2 padding_2 margin_bottom_6">
-			
+
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
 <?php
@@ -82,14 +82,14 @@ echo convert_code($content);
 				</div>
 			</div>
 			<div class="margin_bottom_10"></div>
-			
+
 		</div>
-		
+
 		<div class="grid_3 omega">
 			<?php include(BASEPATH . '/includes/sidebar.php'); ?>
 		</div>
 		<div class="clear"></div>
-		
+
 	</div>
 </div>
 

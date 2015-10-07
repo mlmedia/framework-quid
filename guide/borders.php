@@ -3,21 +3,21 @@
 
 <div id="content">
 	<div class="wrapper_1 container_12 padding_top_1">
-		
+
 		<div class="grid_9 alpha">
-		
+
 			<div class="border_bottom_2 margin_bottom_4">
 				<h1 class="font_arvo fontsize_8 margin_bottom_1">
-					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo; 
-					<a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide">Guide</a> &raquo; 
+					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo;
+					<a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide">Guide</a> &raquo;
 					Borders
 				</h1>
 				<p class="fontsize_5">
-					Use the classes below to distinguish elements on a page with borders.  
+					Use the classes below to distinguish elements on a page with borders.
 					Use the CUSTOM.CSS stylesheet to add any different color border.
 				</p>
 			</div>
-			
+
 			<h3 class="fontsize_5">border_0</h3>
 			<div class="padding_2">
 				<p>
@@ -29,20 +29,20 @@
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_0 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="background_1 padding_1">
 					<div class="border_0 padding_3">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.				
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					</div>
 				</div>
 				<p class="margin_top_2 background_2 padding_1 border_2">
@@ -50,7 +50,7 @@ echo convert_code($content);
 					A black parent background is used above for illustration only.
 				</p>
 			</div>
-			
+
 			<h3 class="fontsize_5">border_1</h3>
 			<div class="padding_2">
 				<p>
@@ -62,22 +62,22 @@ echo convert_code($content);
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_1 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="border_1 padding_3">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_5">border_2</h3>
 			<div class="padding_2">
 				<p>
@@ -89,38 +89,38 @@ echo convert_code($content);
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_2 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="border_2 padding_3">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_5">border_top_XX</h3>
 			<div class="padding_2">
 				<p>
-					Top border in the respective color.  
-					The _XX values above correspond to the same respective color as in the basic border classes above. 
-					Black (i.e. border_1) is used in the example below. 
+					Top border in the respective color.
+					The _XX values above correspond to the same respective color as in the basic border classes above.
+					Black (i.e. border_1) is used in the example below.
 				</p>
 			</div>
-			
+
 			<h3 class="fontsize_5">border_bottom_XX</h3>
 			<div class="padding_2">
 				<p>
 					Bottom border in the respective color.
 				</p>
 			</div>
-			
+
 			<h3 class="fontsize_5">border_right_XX</h3>
 			<div class="padding_2">
 				<p>
@@ -128,7 +128,7 @@ echo convert_code($content);
 				</p>
 			</div>
 
-			
+
 			<h3 class="fontsize_5">border_left_XX</h3>
 			<div class="padding_2">
 				<p>
@@ -136,7 +136,7 @@ echo convert_code($content);
 				</p>
 			</div>
 
-			
+
 			<h3 class="fontsize_5">rounded_1</h3>
 			<div class="padding_2">
 				<p>
@@ -148,22 +148,22 @@ echo convert_code($content);
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_1 rounded_1 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="border_1 rounded_1 padding_3">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_5">rounded_2</h3>
 			<div class="padding_2">
 				<p>
@@ -175,22 +175,22 @@ echo convert_code($content);
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_1 rounded_2 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="border_1 rounded_2 padding_3">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_5">rounded_3</h3>
 			<div class="padding_2">
 				<p>
@@ -202,22 +202,22 @@ echo convert_code($content);
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_1 rounded_3 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="border_1 rounded_3 padding_3">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_5">bordersize_1</h3>
 			<div class="padding_2">
 				<p>
@@ -229,22 +229,22 @@ echo convert_code($content);
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_1 bordersize_1 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="border_1 bordersize_1 padding_3">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_5">bordersize_2</h3>
 			<div class="padding_2">
 				<p>
@@ -256,23 +256,23 @@ echo convert_code($content);
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_1 bordersize_2 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="border_1 bordersize_2 padding_3">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
 			</div>
 
-	
+
 			<h3 class="fontsize_5">bordersize_3</h3>
 			<div class="padding_2">
 				<p>
@@ -284,29 +284,29 @@ echo convert_code($content);
 				<div class="margin_bottom_1">
 <?php
 $content = '<div class="border_1 bordersize_3 padding_3">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>';
 echo convert_code($content);
 ?>
 				</div>
 				<div class="font_2 margin_bottom_1">Display</div>
 				<div class="border_1 bordersize_3 padding_3">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Nam tempus velit sed metus suscipit et aliquam nisl mollis. 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Nam tempus velit sed metus suscipit et aliquam nisl mollis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</div>
 			</div>
-		
+
 			<div class="margin_bottom_10"></div>
-			
+
 		</div>
 		<div class="grid_3 omega">
 			<?php include(BASEPATH . '/includes/sidebar.php'); ?>
 		</div>
 		<div class="clear"></div>
-		
+
 	</div>
 </div>
 

@@ -5,28 +5,28 @@
 	<div class="wrapper_1 container_12 padding_top_1">
 
 		<div class="grid_9 alpha">
-		
+
 			<div class="border_bottom_2 margin_bottom_4">
 				<h1 class="font_arvo fontsize_8 margin_bottom_1">
-					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo; 
-					<a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide">Guide</a> &raquo; 
+					<a href="<?php echo BASEURL;?>" title="Quick User Interface Development ~ Home">Home</a> &raquo;
+					<a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide">Guide</a> &raquo;
 					Tables
 				</h1>
 				<p class="fontsize_5">
 					Use the code below to create standard QUID tables.
 				</p>
 			</div>
-			
+
 			<h3 class="fontsize_5">{ default }</h3>
 			<div class="padding_2">
 				<p>
-					Table with no QUID classes. The standard table is un-styled. 
+					Table with no QUID classes. The standard table is un-styled.
 				</p>
 			</div>
-			
+
 
 			<div class="border_2 padding_2 margin_bottom_6">
-			
+
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
 <?php
@@ -72,7 +72,7 @@ $content = '<table>
 		</tr>
 	</tfoot>
 </table>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
@@ -122,25 +122,25 @@ echo convert_code($content);
 					</table>
 				</div>
 			</div>
-			
+
 			<h3 class="fontsize_5">{ styled }</h3>
 			<div class="padding_2">
 				<p>
-					To style a table, use the classes for <a href="<?php echo BASEURL;?>/guide/backgrounds.php" title="QUID Backgrounds">backgrounds</a> 
-					and <a href="<?php echo BASEURL;?>/guide/borders.php" title="QUID Borders">borders</a>.   
+					To style a table, use the classes for <a href="<?php echo BASEURL;?>/guide/backgrounds.php" title="QUID Backgrounds">backgrounds</a>
+					and <a href="<?php echo BASEURL;?>/guide/borders.php" title="QUID Borders">borders</a>.
 				</p>
 			</div>
-			
+
 			<p class="padding_2 background_2 border_2 margin_bottom_4">
 				<strong>NOTE:</strong>
 				Due to limitations of IE7, classes applied to the <i><b>&lt;TR&gt;</b></i> elements will not display properly.
-				Style classes should be applied to the <i><b>&lt;TD&gt;</b></i> and <i><b>&lt;TH&gt;</b></i> elements instead. 
-				It is more tedious but also more granular - which allows for more intricate styling patterns. 
+				Style classes should be applied to the <i><b>&lt;TD&gt;</b></i> and <i><b>&lt;TH&gt;</b></i> elements instead.
+				It is more tedious but also more granular - which allows for more intricate styling patterns.
 				See the example below.
 			</p>
 
 			<div class="border_2 padding_2 margin_bottom_6">
-			
+
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
 <?php
@@ -186,7 +186,7 @@ $content = '<table class="background_0 border_2">
 		</tr>
 	</tfoot>
 </table>';
-	
+
 echo convert_code($content);
 ?>
 				</div>
@@ -236,16 +236,16 @@ echo convert_code($content);
 					</table>
 				</div>
 			</div>
-			
+
 			<div class="margin_bottom_6">&nbsp;</div>
-			
+
 		</div>
-		
+
 		<div class="grid_3 omega">
 			<?php include(BASEPATH . '/includes/sidebar.php'); ?>
 		</div>
 		<div class="clear"></div>
-		
+
 	</div>
 </div>
 
