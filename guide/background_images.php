@@ -33,7 +33,7 @@
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<img class="background_image_1" src="/images/sample.jpg" />';
 
 echo convert_code($content);

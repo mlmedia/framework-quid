@@ -29,7 +29,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<table>
 	<thead>
 		<tr>
@@ -143,7 +143,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<table class="background_0 border_2">
 	<thead>
 		<tr>

@@ -21,7 +21,7 @@
 			<div class="padding_2">
 				<p>
 					The horizontal structure for QUID is based primarily on the <a href="http://www.designinfluences.com/fluid960gs/12/" target="_blank" title="Fluid Grid System">12-column
-					fluid 960 grid system</a>, derived from the <a href="http://960.gs/" target="_blank" title="960 Grid System">960 grid system</a>.  The creators put together a
+						fluid 960 grid system</a>, derived from the <a href="http://960.gs/" target="_blank" title="960 Grid System">960 grid system</a>. The creators put together a
 					demo that illustrates how the 960 grid system works at <a href="http://960.gs/demo.html" target="_blank" title="960 Grid System Demo">http://960.gs/demo.html</a>.
 					You can easily learn the system by reading the above links and studying the markup in the demo and the examples below.
 				</p>
@@ -32,8 +32,8 @@
 					<h3 class="margin_bottom_2 fontsize_6">{ why the 12-column fluid grid? }</h3>
 					<ul class="list_1">
 						<li class="margin_bottom_2"><strong>Nesting</strong>. The fluid system can be used to nest grids inside of grids so higher grids are not necessary.</li>
-						<li class="margin_bottom_2"><strong>Fluid-or-Fixed</strong>.  A fluid grid can be made fixed by wrapping it within a 960-pixel fixed-width (or any other fixed-width) container.  A fixed grid cannot be made fluid.</li>
-						<li><strong>Divisible by 3</strong>.  The 12-column grid system was used instead of the 16-column system because 12 is evenly divisible by three.</li>
+						<li class="margin_bottom_2"><strong>Fluid-or-Fixed</strong>. A fluid grid can be made fixed by wrapping it within a 960-pixel fixed-width (or any other fixed-width) container. A fixed grid cannot be made fluid.</li>
+						<li><strong>Divisible by 3</strong>. The 12-column grid system was used instead of the 16-column system because 12 is evenly divisible by three.</li>
 					</ul>
 				</div>
 			</div>
@@ -163,7 +163,7 @@
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="container_12">
 	<div class="grid_12 alpha omega margin_bottom_1">
 		<div class="background_2 padding_3 align_center">
@@ -223,7 +223,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="container_12">
 	<div class="grid_12 alpha omega margin_bottom_1">
 		<div class="background_2 padding_3 align_center">
@@ -283,7 +283,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="container_12">
 	<div class="grid_12 alpha omega margin_bottom_1">
 		<div class="background_2 padding_3 align_center">
@@ -357,7 +357,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_10">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="container_12 align_center">
 	<div class="grid_4 alpha margin_bottom_1">
 		<div class="background_2 padding_3">

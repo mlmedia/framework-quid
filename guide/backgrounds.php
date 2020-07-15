@@ -27,7 +27,7 @@
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">Common HTML (replace <i>background_XX</i> with a class below)</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="background_XX padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.

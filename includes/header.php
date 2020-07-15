@@ -32,6 +32,7 @@ Visit the Google Font page @ http://www.google.com/webfonts
 			font-family: "Arvo", serif;
 			font-weight: normal !important;
 		}
+
 	</style>
 	<?php
 
@@ -51,20 +52,21 @@ function convert_code($content)
 
 
 ?>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-33465084-1']);
-			_gaq.push(['_trackPageview']);
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-33465084-1']);
+		_gaq.push(['_trackPageview']);
 
-			(function() {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
 </head>
 
 <body class="font_1 fontsize_4">
@@ -75,8 +77,8 @@ function convert_code($content)
 					<div class="grid_4 alpha padding_bottom_2">
 						<h1 class="fontsize_9 margin_top_1">
 							<a href="<?php echo BASEURL; ?>" title="Home">
-							<img src="<?php echo BASEURL;?>/images/site_logo.gif" alt="" width="231" height="81" alt="QUID" />
-						</a>
+								<img src="<?php echo BASEURL;?>/images/site_logo.gif" alt="" width="231" height="81" alt="QUID" />
+							</a>
 						</h1>
 					</div>
 				</div>

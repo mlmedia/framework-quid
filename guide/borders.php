@@ -21,13 +21,13 @@
 			<h3 class="fontsize_5">border_0</h3>
 			<div class="padding_2">
 				<p>
-					This class creates a one-pixel, solid, white border.  This border can only be seen with a dark parent background.
+					This class creates a one-pixel, solid, white border. This border can only be seen with a dark parent background.
 				</p>
 			</div>
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_0 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -60,7 +60,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_1 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -87,7 +87,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_2 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -146,7 +146,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_1 rounded_1 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -173,7 +173,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_1 rounded_2 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -200,7 +200,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_1 rounded_3 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -227,7 +227,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_1 bordersize_1 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -254,7 +254,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_1 bordersize_2 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -282,7 +282,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="border_1 bordersize_3 padding_3">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.

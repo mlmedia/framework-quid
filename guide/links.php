@@ -28,7 +28,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = 'Lorem ipsum dolor sit amet with an <a href="#">example link</a> and another lorem ipsum dolor an <a href="#">example link</a>.';
 
 echo convert_code($content);

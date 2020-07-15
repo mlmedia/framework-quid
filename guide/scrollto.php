@@ -45,7 +45,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<h3 id="example_1">Target Element</h3>
 <div class="margin_top_2">
 	<p>

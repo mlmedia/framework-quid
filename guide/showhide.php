@@ -49,7 +49,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<h3 class="show_trigger" rel="example_1">Trigger Element (click to toggle display)</h3>
 <div class="show_target shown margin_top_2" id="example_1">
 	<div class="float_left">

@@ -13,7 +13,7 @@
 					Gradients
 				</h1>
 				<p class="fontsize_5">
-					Use the classes below to distinguish elements on a page with gradients.  These gradients work in conjunction with any background.
+					Use the classes below to distinguish elements on a page with gradients. These gradients work in conjunction with any background.
 				</p>
 			</div>
 
@@ -33,7 +33,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="background_2 border_2 margin_bottom_2">
 	<div class="gradient_0 padding_10">
 
@@ -67,7 +67,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="background_1 border_1 margin_bottom_2">
 	<div class="gradient_1 padding_10">
 
@@ -96,7 +96,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="background_1 border_1 margin_bottom_2">
 	<div class="gradient_2 padding_10">
 
@@ -133,7 +133,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="background_1 border_1 margin_bottom_2">
 	<div class="gradient_3 padding_10">
 

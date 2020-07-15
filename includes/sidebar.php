@@ -1,9 +1,16 @@
 <div class="margin_bottom_2 background_2 border_2 padding_2">
 	<ul>
-		<li><h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/index.php" title="QUID ~ Home">Home</a></h3></li>
-		<li><h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/download/index.php" title="QUID ~ Download">Download</a></h3></li>
-		<li><h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/faq.php" title="QUID ~ Frequently Asked Questions">FAQ</a></h3></li>
-		<li><h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide Home">Guide</a></h3>
+		<li>
+			<h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/index.php" title="QUID ~ Home">Home</a></h3>
+		</li>
+		<li>
+			<h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/download/index.php" title="QUID ~ Download">Download</a></h3>
+		</li>
+		<li>
+			<h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/faq.php" title="QUID ~ Frequently Asked Questions">FAQ</a></h3>
+		</li>
+		<li>
+			<h3 class="fontsize_5 margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/index.php" title="QUID ~ Guide Home">Guide</a></h3>
 			<ul class="list_1 margin_bottom_2">
 				<li><a href="<?php echo BASEURL;?>/guide/backgrounds.php" title="QUID ~ Backgrounds">Backgrounds</a></li>
 				<li><a href="<?php echo BASEURL;?>/guide/background_images.php" title="QUID ~ Background Images">Background Images</a></li>

@@ -2,7 +2,7 @@
 		<div class="wrapper_1 padding_top_5 padding_bottom_5">
 			<div class="grid_9 alpha">
 				<p>
-					Copyright &copy; 2012 <a href="<?php echo BASEURL;?>" title="QUID - Quick User Interface Development Kit">QUIDKIT.COM</a>.  All Rights Reserved.
+					Copyright &copy; 2012 <a href="<?php echo BASEURL;?>" title="QUID - Quick User Interface Development Kit">QUIDKIT.COM</a>. All Rights Reserved.
 				</p>
 			</div>
 			<div class="grid_3 omega">
@@ -14,6 +14,7 @@
 			<div class="margin_bottom_10"></div>
 		</div>
 	</div>
-</div>
-</body>
-</html>
+	</div>
+	</body>
+
+	</html>

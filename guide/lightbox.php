@@ -46,16 +46,16 @@
 				</p>
 				<p>
 					In the example below, a width is set on the target element with an inline style of <i>width:800px</i>.
-					This is for illustration purposes only.  Inline styles are generally discouraged.
+					This is for illustration purposes only. Inline styles are generally discouraged.
 					A better method is to set the width using a CSS property in your <i>CUSTOM.CSS</i> file.
 				</p>
 			</div>
 
 			<h3 class="fontsize_5">lightbox_close</h3>
 			<div class="padding_2">
-					By default, clicking outside the lightbox will close it.
-					However, the <i>lightbox_close</i> class can also be used on any element inside the target element to close the lightbox.
-					In the example below, it is used on an <i>X</i> - a good standard for a close control.
+				By default, clicking outside the lightbox will close it.
+				However, the <i>lightbox_close</i> class can also be used on any element inside the target element to close the lightbox.
+				In the example below, it is used on an <i>X</i> - a good standard for a close control.
 				</p>
 			</div>
 
@@ -63,7 +63,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<a class="button lightbox_trigger" href="#" rel="example_1">Lightbox Trigger Element</a>
 <div class="lightbox_target background_0 border_2" id="example_1" style="width:800px;">
 	<div class="padding_2">

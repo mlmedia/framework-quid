@@ -11,21 +11,125 @@
 /* =RESET
 ---------------------------------------------------------------- */
 
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, xmp {
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
 	border: 0;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
 }
-html, body {
+
+html,
+body {
 	height: 100%;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
-b, strong {
+
+b,
+strong {
 	font-weight: 700;
 }
+
 img {
 	color: transparent;
 	background: transparent;
@@ -35,41 +139,58 @@ img {
 	/* IE8 hack */
 	-ms-interpolation-mode: bicubic;
 }
+
 li {
 	display: list-item;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-th, td, caption {
+
+th,
+td,
+caption {
 	font-weight: 400;
 	text-align: left;
 	vertical-align: top;
 }
+
 q {
 	quotes: none;
 }
-q:before, q:after {
+
+q:before,
+q:after {
 	content: none;
 }
-sub, sup, small {
+
+sub,
+sup,
+small {
 	font-size: 75%;
 }
-sub, sup {
+
+sub,
+sup {
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
 }
+
 sub {
 	bottom: -.25em;
 }
+
 sup {
 	top: -.5em;
 }
+
 svg {
 	overflow: hidden;
 }
+
 hr {
 	display: block;
 	border: 0;
@@ -77,24 +198,29 @@ hr {
 	clear: both;
 	border-bottom: 1px solid #ccc;
 }
+
 a {
 	outline: 0;
 	border: 0;
 	color: #039;
 	text-decoration: none;
 }
+
 a:hover {
 	color: #36c;
 	text-decoration: none;
 }
+
 blockquote {
 	padding: 1em;
 	margin: 1em 2%;
 }
+
 p {
 	margin-bottom: 1em;
 	line-height: 1.4em;
 }
+
 pre {
 	white-space: pre-wrap;
 	margin-bottom: 2em !important;
@@ -119,126 +245,177 @@ Fluid widths and fixed wrappers are used in place of fixed widths so nesting is 
 	overflow: hidden;
 	width: 92%;
 }
+
 .grid_1 {
 	width: 6.333%;
 }
-.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
 	display: inline;
 	float: left;
 	margin-left: 1%;
 	margin-right: 1%;
 }
+
 .grid_2 {
 	width: 14.666%;
 }
+
 .grid_3 {
 	width: 23%;
 }
+
 .grid_4 {
 	width: 31.333%;
 }
+
 .grid_5 {
 	width: 39.666%;
 }
+
 .grid_6 {
 	width: 48%;
 }
+
 .grid_7 {
 	width: 56.333%;
 }
+
 .grid_8 {
 	width: 64.666%;
 }
+
 .grid_9 {
 	width: 73%;
 }
+
 .grid_10 {
 	width: 81.333%;
 }
+
 .grid_11 {
 	width: 89.666%;
 }
+
 .grid_12 {
 	width: 98%;
 }
+
 .prefix_1 {
 	padding-left: 8.333%;
 }
+
 .prefix_2 {
 	padding-left: 16.666%;
 }
+
 .prefix_3 {
 	padding-left: 25%;
 }
+
 .prefix_4 {
 	padding-left: 33.333%;
 }
+
 .prefix_5 {
 	padding-left: 41.666%;
 }
+
 .prefix_6 {
 	padding-left: 50%;
 }
+
 .prefix_7 {
 	padding-left: 58.333%;
 }
+
 .prefix_8 {
 	padding-left: 66.666%;
 }
+
 .prefix_9 {
 	padding-left: 75%;
 }
+
 .prefix_10 {
 	padding-left: 83.333%;
 }
+
 .prefix_11 {
 	padding-left: 91.666%;
 }
+
 .suffix_1 {
 	padding-right: 8.333%;
 }
+
 .suffix_2 {
 	padding-right: 16.666%;
 }
+
 .suffix_3 {
 	padding-right: 25%;
 }
+
 .suffix_4 {
 	padding-right: 33.333%;
 }
+
 .suffix_5 {
 	padding-right: 41.666%;
 }
+
 .suffix_6 {
 	padding-right: 50%;
 }
+
 .suffix_7 {
 	padding-right: 58.333%;
 }
+
 .suffix_8 {
 	padding-right: 66.666%;
 }
+
 .suffix_9 {
 	padding-right: 75%;
 }
+
 .suffix_10 {
 	padding-right: 83.333%;
 }
+
 .suffix_11 {
 	padding-right: 91.666%;
 }
+
 * html .clearfix {
 	height: 1%;
 }
+
 .alpha {
 	margin-left: 0;
 }
+
 .omega {
 	margin-right: 0;
 }
+
 .clearfix {
 	display: block;
 }
+
 .clearfix:after {
 	clear: both;
 	content: '.';
@@ -246,7 +423,11 @@ Fluid widths and fixed wrappers are used in place of fixed widths so nesting is 
 	height: 0;
 	visibility: hidden;
 }
-html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {
+
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear {
 	background: none;
 	border: 0;
 	clear: both;
@@ -261,310 +442,412 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
 	visibility: hidden;
 	width: 0;
 }
+
 .padding_1 {
 	padding: .5em !important;
 }
+
 .padding_2 {
 	padding: 1em !important;
 }
+
 .padding_3 {
 	padding: 1.5em !important;
 }
+
 .padding_4 {
 	padding: 2em !important;
 }
+
 .padding_5 {
 	padding: 2.5em !important;
 }
+
 .padding_6 {
 	padding: 3em !important;
 }
+
 .padding_7 {
 	padding: 3.5em !important;
 }
+
 .padding_8 {
 	padding: 4em !important;
 }
+
 .padding_9 {
 	padding: 4.5em !important;
 }
+
 .padding_10 {
 	padding: 5em !important;
 }
+
 .padding_top_1 {
 	padding-top: .5em !important;
 }
+
 .padding_top_2 {
 	padding-top: 1em !important;
 }
+
 .padding_top_3 {
 	padding-top: 1.5em !important;
 }
+
 .padding_top_4 {
 	padding-top: 2em !important;
 }
+
 .padding_top_5 {
 	padding-top: 2.5em !important;
 }
+
 .padding_top_6 {
 	padding-top: 3em !important;
 }
+
 .padding_top_7 {
 	padding-top: 3.5em !important;
 }
+
 .padding_top_8 {
 	padding-top: 4em !important;
 }
+
 .padding_top_9 {
 	padding-top: 4.5em !important;
 }
+
 .padding_top_10 {
 	padding-top: 5em !important;
 }
+
 .padding_bottom_1 {
 	padding-bottom: .5em !important;
 }
+
 .padding_bottom_2 {
 	padding-bottom: 1em !important;
 }
+
 .padding_bottom_3 {
 	padding-bottom: 1.5em !important;
 }
+
 .padding_bottom_4 {
 	padding-bottom: 2em !important;
 }
+
 .padding_bottom_5 {
 	padding-bottom: 2.5em !important;
 }
+
 .padding_bottom_6 {
 	padding-bottom: 3em !important;
 }
+
 .padding_bottom_7 {
 	padding-bottom: 3.5em !important;
 }
+
 .padding_bottom_8 {
 	padding-bottom: 4em !important;
 }
+
 .padding_bottom_9 {
 	padding-bottom: 4.5em !important;
 }
+
 .padding_bottom_10 {
 	padding-bottom: 5em !important;
 }
+
 .padding_right_1 {
 	padding-right: .5em !important;
 }
+
 .padding_right_2 {
 	padding-right: 1em !important;
 }
+
 .padding_right_3 {
 	padding-right: 1.5em !important;
 }
+
 .padding_right_4 {
 	padding-right: 2em !important;
 }
+
 .padding_right_5 {
 	padding-right: 2.5em !important;
 }
+
 .padding_right_6 {
 	padding-right: 3em !important;
 }
+
 .padding_right_7 {
 	padding-right: 3.5em !important;
 }
+
 .padding_right_8 {
 	padding-right: 4em !important;
 }
+
 .padding_right_9 {
 	padding-right: 4.5em !important;
 }
+
 .padding_right_10 {
 	padding-right: 5em !important;
 }
+
 .padding_left_1 {
 	padding-left: .5em !important;
 }
+
 .padding_left_2 {
 	padding-left: 1em !important;
 }
+
 .padding_left_3 {
 	padding-left: 1.5em !important;
 }
+
 .padding_left_4 {
 	padding-left: 2em !important;
 }
+
 .padding_left_5 {
 	padding-left: 2.5em !important;
 }
+
 .padding_left_6 {
 	padding-left: 3em !important;
 }
+
 .padding_left_7 {
 	padding-left: 3.5em !important;
 }
+
 .padding_left_8 {
 	padding-left: 4em !important;
 }
+
 .padding_left_9 {
 	padding-left: 4.5em !important;
 }
+
 .padding_left_10 {
 	padding-left: 5em !important;
 }
+
 .margin_1 {
 	margin: .5em !important;
 }
+
 .margin_2 {
 	margin: 1em !important;
 }
+
 .margin_3 {
 	margin: 1.5em !important;
 }
+
 .margin_4 {
 	margin: 2em !important;
 }
+
 .margin_5 {
 	margin: 2.5em !important;
 }
+
 .margin_6 {
 	margin: 3em !important;
 }
+
 .margin_7 {
 	margin: 3.5em !important;
 }
+
 .margin_8 {
 	margin: 4em !important;
 }
+
 .margin_9 {
 	margin: 4.5em !important;
 }
+
 .margin_10 {
 	margin: 5em !important;
 }
+
 .margin_top_1 {
 	margin-top: .5em !important;
 }
+
 .margin_top_2 {
 	margin-top: 1em !important;
 }
+
 .margin_top_3 {
 	margin-top: 1.5em !important;
 }
+
 .margin_top_4 {
 	margin-top: 2em !important;
 }
+
 .margin_top_5 {
 	margin-top: 2.5em !important;
 }
+
 .margin_top_6 {
 	margin-top: 3em !important;
 }
+
 .margin_top_7 {
 	margin-top: 3.5em !important;
 }
+
 .margin_top_8 {
 	margin-top: 4em !important;
 }
+
 .margin_top_9 {
 	margin-top: 4.5em !important;
 }
+
 .margin_top_10 {
 	margin-top: 5em !important;
 }
+
 .margin_bottom_1 {
 	margin-bottom: .5em !important;
 }
+
 .margin_bottom_2 {
 	margin-bottom: 1em !important;
 }
+
 .margin_bottom_3 {
 	margin-bottom: 1.5em !important;
 }
+
 .margin_bottom_4 {
 	margin-bottom: 2em !important;
 }
+
 .margin_bottom_5 {
 	margin-bottom: 2.5em !important;
 }
+
 .margin_bottom_6 {
 	margin-bottom: 3em !important;
 }
+
 .margin_bottom_7 {
 	margin-bottom: 3.5em !important;
 }
+
 .margin_bottom_8 {
 	margin-bottom: 4em !important;
 }
+
 .margin_bottom_9 {
 	margin-bottom: 4.5em !important;
 }
+
 .margin_bottom_10 {
 	margin-bottom: 5em !important;
 }
+
 .margin_right_1 {
 	margin-right: .5em !important;
 }
+
 .margin_right_2 {
 	margin-right: 1em !important;
 }
+
 .margin_right_3 {
 	margin-right: 1.5em !important;
 }
+
 .margin_right_4 {
 	margin-right: 2em !important;
 }
+
 .margin_right_5 {
 	margin-right: 2.5em !important;
 }
+
 .margin_right_6 {
 	margin-right: 3em !important;
 }
+
 .margin_right_7 {
 	margin-right: 3.5em !important;
 }
+
 .margin_right_8 {
 	margin-right: 4em !important;
 }
+
 .margin_right_9 {
 	margin-right: 4.5em !important;
 }
+
 .margin_right_10 {
 	margin-right: 5em !important;
 }
+
 .margin_left_1 {
 	margin-left: .5em !important;
 }
+
 .margin_left_2 {
 	margin-left: 1em !important;
 }
+
 .margin_left_3 {
 	margin-left: 1.5em !important;
 }
+
 .margin_left_4 {
 	margin-left: 2em !important;
 }
+
 .margin_left_5 {
 	margin-left: 2.5em !important;
 }
+
 .margin_left_6 {
 	margin-left: 3em !important;
 }
+
 .margin_left_7 {
 	margin-left: 3.5em !important;
 }
+
 .margin_left_8 {
 	margin-left: 4em !important;
 }
+
 .margin_left_9 {
 	margin-left: 4.5em !important;
 }
+
 .margin_left_10 {
 	margin-left: 5em !important;
 }
+
 .wrapper_1 {
 	margin: 0 auto;
 	width: 960px;
 }
+
 .float_left {
 	clear: right;
 	display: inline;
@@ -572,6 +855,7 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
 	margin: 0 1em 1em 0;
 	overflow: hidden;
 }
+
 .float_right {
 	clear: left;
 	display: inline;
@@ -579,21 +863,26 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
 	margin: 0 0 1em 1em;
 	overflow: hidden;
 }
+
 .float_center {
 	clear: both;
 	display: block;
 	text-align: center;
 	margin: 0 0 1em;
 }
+
 .align_center {
 	text-align: center;
 }
+
 .align_right {
 	text-align: right;
 }
+
 .align_left {
 	text-align: left;
 }
+
 .align_full {
 	text-align: justify;
 }
@@ -601,38 +890,52 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
 /* =LIST ITEMS
 ---------------------------------------------------------------- */
 
-ul, ol {
+ul,
+ol {
 	list-style-type: none;
 	display: block;
 	clear: both;
 	overflow: hidden;
 	float: none;
 }
-ul.list_0, ol.list_0 {
+
+ul.list_0,
+ol.list_0 {
 	list-style-type: none;
 }
+
 ul.list_1 {
 	list-style-type: disc;
 }
+
 ul.list_2 {
 	list-style-type: circle;
 }
+
 ul.list_3 {
 	list-style-type: square;
 }
+
 ol.list_1 {
 	list-style-type: decimal;
 }
+
 ol.list_2 {
 	list-style-type: lower-alpha;
 }
+
 ol.list_3 {
 	list-style-type: upper-roman;
 }
-.list_1 li, .list_2 li, .list_3 li {
+
+.list_1 li,
+.list_2 li,
+.list_3 li {
 	margin-left: 1.6em;
 }
-.list_0 li, .list_0 a {
+
+.list_0 li,
+.list_0 a {
 	float: left;
 }
 
@@ -642,54 +945,71 @@ ol.list_3 {
 .bordersize_1 {
 	border-width: 3px !important;
 }
+
 .bordersize_2 {
 	border-width: 5px !important;
 }
+
 .bordersize_3 {
 	border-width: 10px !important;
 }
+
 .border_0 {
 	border: 1px solid #fff;
 }
+
 .border_bottom_0 {
 	border-bottom: 1px solid #fff;
 }
+
 .border_top_0 {
 	border-top: 1px solid #fff;
 }
+
 .border_right_0 {
 	border-right: 1px solid #fff;
 }
+
 .border_left_0 {
 	border-left: 1px solid #fff;
 }
+
 .border_1 {
 	border: 1px solid #000;
 }
+
 .border_bottom_1 {
 	border-bottom: 1px solid #000;
 }
+
 .border_top_1 {
 	border-top: 1px solid #000;
 }
+
 .border_right_1 {
 	border-right: 1px solid #000;
 }
+
 .border_left_1 {
 	border-left: 1px solid #000;
 }
+
 .border_2 {
 	border: 1px solid #ccc;
 }
+
 .border_bottom_2 {
 	border-bottom: 1px solid #ccc;
 }
+
 .border_top_2 {
 	border-top: 1px solid #ccc;
 }
+
 .border_right_2 {
 	border-right: 1px solid #ccc;
 }
+
 .border_left_2 {
 	border-left: 1px solid #ccc;
 }
@@ -705,6 +1025,7 @@ ol.list_3 {
 	/* IE hacks - rounded corners don't work */
 	*border-radius: 0;
 }
+
 .rounded_2 {
 	border-radius: 1em;
 	-moz-border-radius: 1em;
@@ -713,6 +1034,7 @@ ol.list_3 {
 	/* IE hacks - rounded corners don't work */
 	*border-radius: 0;
 }
+
 .rounded_3 {
 	border-radius: 1.5em;
 	-moz-border-radius: 1.5em;
@@ -729,64 +1051,82 @@ ol.list_3 {
 	background: #fff !important;
 	color: #000;
 }
+
 .background_1 {
 	background: #000 !important;
 	color: #fff;
 }
+
 .background_1 a {
 	color: #69f;
 }
+
 .background_1 a:hover {
 	color: #9cf;
 }
+
 .background_2 {
 	background: #eee !important;
 	color: #000;
 }
+
 .background_3 {
 	background: #ccc !important;
 	color: #000;
 }
+
 .background_4 {
 	background: #333 !important;
 	color: #fff;
 }
+
 .background_4 a {
 	color: #69f;
 }
+
 .background_4 a:hover {
 	color: #9cf;
 }
+
 .background_5 {
 	background: #900 !important;
 	color: #fff;
 }
+
 .background_5 a {
 	color: #69f;
 }
+
 .background_5 a:hover {
 	color: #9cf;
 }
+
 .background_6 {
 	background: #060 !important;
 	color: #fff;
 }
+
 .background_6 a {
 	color: #69f;
 }
+
 .background_6 a:hover {
 	color: #9cf;
 }
+
 .background_7 {
 	background: #006 !important;
 	color: #fff;
 }
+
 .background_7 a {
 	color: #69f;
 }
+
 .background_7 a:hover {
 	color: #9cf;
 }
+
 .background_image_1 {
 	z-index: -999;
 	min-height: 100%;
@@ -809,6 +1149,7 @@ ol.list_3 {
 	zoom: 1;
 	behavior: url(../css/PIE.htc);
 }
+
 .gradient_1 {
 	background: transparent;
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .375)), to(rgba(255, 255, 255, 0))) !important;
@@ -817,6 +1158,7 @@ ol.list_3 {
 	zoom: 1;
 	behavior: url(../css/PIE.htc);
 }
+
 .gradient_2 {
 	background: transparent;
 	background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, 0))) !important;
@@ -825,6 +1167,7 @@ ol.list_3 {
 	zoom: 1;
 	behavior: url(../css/PIE.htc);
 }
+
 .gradient_3 {
 	background: transparent;
 	background-image: -webkit-radial-gradient(50% 50%, circle farthest-side, rgba(255, 255, 255, .25), rgba(255, 255, 255, 0));
@@ -839,35 +1182,41 @@ ol.list_3 {
 fieldset {
 	border: 1px solid #ccc;
 }
+
 legend {
 	border: 1px solid #ccc;
 	font-weight: 700;
 	padding: .3em 1em;
 }
+
 input[type="checkbox"] {
 	height: 13px;
 	line-height: 1em;
 	margin-left: 0;
 	width: 13px;
 }
+
 input[type="radio"] {
 	height: 13px;
 	line-height: 1em;
 	margin-left: 0;
 	width: 13px;
 }
+
 input[type="text"] {
 	border: 1px solid #ccc;
 	padding: .5em;
 	width: 96%;
 	clear: both;
 }
+
 input[type="password"] {
 	border: 1px solid #ccc;
 	padding: .5em;
 	width: 96%;
 	clear: both;
 }
+
 textarea {
 	border: 1px solid #ccc;
 	padding: .5em;
@@ -875,11 +1224,13 @@ textarea {
 	max-width: 96%;
 	clear: both;
 }
+
 label {
 	line-height: 1.6em;
 	width: 96%;
 	display: inline-block;
 }
+
 select {
 	border: 1px solid #ccc;
 	padding: .3em;
@@ -892,7 +1243,9 @@ select {
 table {
 	width: 100%;
 }
-td, th {
+
+td,
+th {
 	padding: .5em;
 }
 
@@ -905,69 +1258,91 @@ For other fonts, please see the top of the Demo Index page for an example of a c
 .font_1 {
 	font-family: "Arial", "Helvetica", "sans-serif";
 }
+
 .font_2 {
 	font-family: "Courier New", "monospace";
 }
+
 .font_3 {
 	font-family: "Georgia", "serif";
 }
+
 .font_4 {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
 }
+
 .font_5 {
 	font-family: "Tahoma", "Geneva", "sans-serif";
 }
+
 .font_6 {
 	font-family: "Times New Roman", "Times", "serif";
 }
+
 .font_7 {
 	font-family: "Verdana", "Geneva", "sans-serif";
 }
+
 .font_8 {
 	font-family: "Comic Sans MS", "cursive";
 }
+
 .font_9 {
 	font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
 }
+
 .font_10 {
 	font-family: "Trebuchet MS", "sans-serif";
 }
+
 .fontsize_1 {
 	font-size: 8px !important;
 }
+
 .fontsize_2 {
 	font-size: 10px !important;
 }
+
 .fontsize_3 {
 	font-size: 12px !important;
 }
+
 .fontsize_4 {
 	font-size: 14px !important;
 }
+
 .fontsize_5 {
 	font-size: 16px !important;
 }
+
 .fontsize_6 {
 	font-size: 18px !important;
 }
+
 .fontsize_7 {
 	font-size: 24px !important;
 }
+
 .fontsize_8 {
 	font-size: 36px !important;
 }
+
 .fontsize_9 {
 	font-size: 48px !important;
 }
+
 .fontsize_10 {
 	font-size: 72px !important;
 }
+
 .fontweight_1 {
 	font-weight: lighter;
 }
+
 .fontweight_2 {
 	font-weight: normal;
 }
+
 .fontweight_3 {
 	font-weight: bold;
 }
@@ -990,6 +1365,7 @@ a.button {
 	*display: inline;
 	*border-color: #aaa;
 }
+
 a.button span {
 	display: block;
 	padding: .5em 1em;
@@ -1000,9 +1376,11 @@ a.button span {
 	zoom: 1;
 	behavior: url(../css/PIE.htc);
 }
+
 a.button:hover {
 	color: inherit;
 }
+
 a.button:hover span {
 	text-decoration: none;
 	background: transparent;
@@ -1012,6 +1390,7 @@ a.button:hover span {
 	zoom: 1;
 	behavior: url(../css/PIE.htc);
 }
+
 a.button:active span {
 	outline: 0;
 	background: transparent;
@@ -1021,6 +1400,7 @@ a.button:active span {
 	zoom: 1;
 	behavior: url(../css/PIE.htc);
 }
+
 .button_dark {
 	display: inline-block;
 	zoom: 1;
@@ -1036,6 +1416,7 @@ a.button:active span {
 	border: solid 1px transparent;
 	background-color: #000;
 }
+
 .button_dark span {
 	display: block;
 	padding: .5em 1em;
@@ -1046,9 +1427,11 @@ a.button:active span {
 	zoom: 1;
 	behavior: url(../css/PIE.htc);
 }
+
 .button_dark:hover {
 	color: #fff;
 }
+
 .button_dark:hover span {
 	text-decoration: none;
 	background: transparent;
@@ -1058,6 +1441,7 @@ a.button:active span {
 	zoom: 1;
 	behavior: url(../css/PIE.htc);
 }
+
 .button_dark:active span {
 	outline: 0;
 	background: transparent;
@@ -1071,7 +1455,8 @@ a.button:active span {
 /* =BUTTONS
 ---------------------------------------------------------------- */
 
-button.button, input[type="submit"] {
+button.button,
+input[type="submit"] {
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
@@ -1091,7 +1476,9 @@ button.button, input[type="submit"] {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee');
 	behavior: url(../css/PIE.htc);
 }
-button.button:hover, input[type="submit"]:hover {
+
+button.button:hover,
+input[type="submit"]:hover {
 	text-decoration: none;
 	background: #eee;
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
@@ -1099,7 +1486,9 @@ button.button:hover, input[type="submit"]:hover {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd');
 	behavior: url(../css/PIE.htc);
 }
-button.button:active, input[type="submit"]:active {
+
+button.button:active,
+input[type="submit"]:active {
 	outline: 0;
 	position: relative;
 	top: 1px;
@@ -1113,6 +1502,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_1 {
 	color: #fff;
 	border: solid 1px #333;
@@ -1122,6 +1512,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#111111');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_1:hover {
 	color: #fff;
 	background: #000;
@@ -1130,6 +1521,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#000000');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_1:active {
 	color: #eee;
 	background: -webkit-gradient(linear, left top, left bottom, from(#111), to(#777));
@@ -1137,6 +1529,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#111111', endColorstr='#777777');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_2 {
 	color: #fff;
 	border: solid 1px #ee8800;
@@ -1146,6 +1539,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#eecc00', endColorstr='#ee6600');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_2:hover {
 	color: #fff;
 	background: #eeaa00;
@@ -1154,6 +1548,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#eecc00', endColorstr='#dd5500');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_2:active {
 	color: #eee;
 	background: -webkit-gradient(linear, left top, left bottom, from(#ee6600), to(#eecc00));
@@ -1161,6 +1556,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ee6600', endColorstr='#eecc00');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_3 {
 	color: #fff;
 	border: solid 1px #990000;
@@ -1170,6 +1566,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ee0000', endColorstr='#aa0000');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_3:hover {
 	color: #fff;
 	background: #cc0000;
@@ -1178,12 +1575,14 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ee0000', endColorstr='#880000');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_3:active {
 	color: #eee;
 	background: -webkit-gradient(linear, left top, left bottom, from(#aa0000), to(#ee0000));
 	background: -moz-linear-gradient(top, #aa0000, #ee0000);
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#aa0000', endColorstr='#ee0000');
 }
+
 .button_4 {
 	color: #fff;
 	border: solid 1px #0077aa;
@@ -1193,6 +1592,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0099ee', endColorstr='#0088bb');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_4:hover {
 	color: #fff;
 	background: #0077aa;
@@ -1201,6 +1601,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0099ee', endColorstr='#0066aa');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_4:active {
 	color: #eee;
 	background: -webkit-gradient(linear, left top, left bottom, from(#0088bb), to(#0099ee));
@@ -1208,6 +1609,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0088bb', endColorstr='#0099ee');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_5 {
 	color: #fff;
 	border: solid 1px #009900;
@@ -1217,6 +1619,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#33cc33', endColorstr='#009900');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_5:hover {
 	color: #fff;
 	background: #33ee33;
@@ -1225,6 +1628,7 @@ button.button:active, input[type="submit"]:active {
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#33cc33', endColorstr='#007700');
 	behavior: url(../css/PIE.htc);
 }
+
 .button_5:active {
 	color: #eee;
 	background: -webkit-gradient(linear, left top, left bottom, from(#009900), to(#33cc33));
@@ -1239,19 +1643,23 @@ button.button:active, input[type="submit"]:active {
 ul.dynamic_menu {
 	list-style-type: none;
 }
+
 ul.dynamic_menu li {
 	float: left;
 	padding: .5em;
 }
+
 ul.dynamic_menu li ul {
 	display: none;
 	position: absolute;
 }
+
 ul.dynamic_menu li ul li {
 	list-style: none;
 	clear: both;
 	display: block;
 }
+
 ul.dynamic_menu li ul li a {
 	padding: .5em 1em;
 }

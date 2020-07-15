@@ -28,7 +28,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
@@ -60,7 +60,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<h1 class="font_5 fontsize_9 margin_bottom_1">Heading 1</h1>
 <h2 class="font_6 fontsize_8 margin_bottom_1">Heading 2</h2>
 <h3 class="font_7 fontsize_7 margin_bottom_1">Heading 3</h3>

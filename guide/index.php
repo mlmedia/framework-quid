@@ -32,7 +32,7 @@
 			<h3 class="fontsize_6 margin_bottom_1" title="Basic HTML and structure">{ basic HTML and structure }</h3>
 			<div class="padding_2">
 				<ul class="list_1">
-					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/structure.php" title="QUID ~ Structure">Structure</a> - Horizontal and vertical structure elements.  This section should be used first to create a skeleton frame for a web page.</li>
+					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/structure.php" title="QUID ~ Structure">Structure</a> - Horizontal and vertical structure elements. This section should be used first to create a skeleton frame for a web page.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/headings.php" title="QUID ~ Headings">Headings</a> - Heading elements - H1, H2, H3, etc.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/text.php" title="QUID ~ Text">Text</a> - Paragraphs, basic text alignment and floating elements.</li>
 					<li class="margin_bottom_1"><a href="<?php echo BASEURL;?>/guide/links.php" title="QUID ~ Links">Links</a> - Link (anchor) elements.</li>

@@ -29,7 +29,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ol>
 	<li>Lorem ipsum</li>
 	<li>Lorem ipsum</li>
@@ -64,7 +64,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ul class="list_0 gradient_2 border_2">
 	<li><a href="#" class="padding_2">Lorem ipsum</a></li>
 	<li><a href="#" class="padding_2">Lorem ipsum</a></li>
@@ -105,7 +105,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ul class="list_1">
 	<li>Lorem ipsum</li>
 	<li>Lorem ipsum</li>
@@ -139,7 +139,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ul class="list_2">
 	<li>Lorem ipsum</li>
 	<li>Lorem ipsum</li>
@@ -173,7 +173,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ul class="list_3">
 	<li>Lorem ipsum</li>
 	<li>Lorem ipsum</li>
@@ -214,7 +214,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ol class="list_1">
 	<li>Lorem ipsum</li>
 	<li>Lorem ipsum</li>
@@ -248,7 +248,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ol class="list_2">
 	<li>Lorem ipsum</li>
 	<li>Lorem ipsum</li>
@@ -282,7 +282,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ol class="list_3">
 	<li>Lorem ipsum</li>
 	<li>Lorem ipsum</li>

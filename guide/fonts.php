@@ -33,7 +33,7 @@
 			</div>
 
 			<div class="font_2 margin_bottom_1">HTML (change <i>font_XX</i> with the classes below)</div>
-<?php
+			<?php
 $content = '<span class="font_XX">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>';
 echo convert_code($content);
 ?>
@@ -150,7 +150,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = 'Use standard HTML tags to create <b>bold</b>, <u>underline</u>, and <i>italic</i> text.';
 
 echo convert_code($content);
@@ -179,7 +179,7 @@ echo convert_code($content);
 			</div>
 
 			<div class="font_2 margin_bottom_1">HTML (change <i>fontsize_XX</i> with the classes below)</div>
-<?php
+			<?php
 $content = '<span class="fontsize_XX">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>';
 
 echo convert_code($content);
@@ -291,10 +291,10 @@ echo convert_code($content);
 				<p>
 					Custom fonts have been historically tricky for web developers.
 					<a href="http://cufon.shoqolate.com/generate/" target="_blank" title="Cufon">Cufon, <a href="https://typekit.com/fonts" target="_blank" title="Typekit">Typekit</a>,
-					and <a href="http://www.fontsquirrel.com/fontface/generator" target="_blank" title="@font-face kits from FontSquirrel">@font-face CSS declarations</a> work,
-					but have some limitations, and are not ideal for QUID standardization.
-					<a href="http://www.google.com/webfonts" title="Google Web Fonts" target="_blank">Google Web Fonts</a>, on the other hand, works perfectly with the QUID kit.
-					It does not require JavaScript and does not require downloading font files and setting custom CSS properties on individual elements.
+						and <a href="http://www.fontsquirrel.com/fontface/generator" target="_blank" title="@font-face kits from FontSquirrel">@font-face CSS declarations</a> work,
+						but have some limitations, and are not ideal for QUID standardization.
+						<a href="http://www.google.com/webfonts" title="Google Web Fonts" target="_blank">Google Web Fonts</a>, on the other hand, works perfectly with the QUID kit.
+						It does not require JavaScript and does not require downloading font files and setting custom CSS properties on individual elements.
 				</p>
 			</div>
 
@@ -314,7 +314,7 @@ echo convert_code($content);
 					<ol>
 						<li class="margin_bottom_2">
 							Add the following code in the <b><i>&lt;HEAD&gt;</i></b> element of your page:<br /><br />
-	<?php
+							<?php
 	$code = '<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
 	<style type="text/css">
 	.font_custom {
@@ -326,7 +326,7 @@ echo convert_code($content);
 						</li>
 						<li>
 							Add the "font_custom" class to an element you would like to use that font:<br /><br />
-	<?php
+							<?php
 	$code = '<div class="font_custom fontsize_8">
 		The quick brown fox jumps over the lazy dog.
 	</div>';

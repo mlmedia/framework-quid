@@ -27,7 +27,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -69,7 +69,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<p class="align_left">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -105,7 +105,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<p class="align_right">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -141,7 +141,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<p class="align_center">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -177,7 +177,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<p class="align_full">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -213,7 +213,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -273,7 +273,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.
@@ -338,7 +338,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	Nam tempus velit sed metus suscipit et aliquam nisl mollis.

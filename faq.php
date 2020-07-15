@@ -72,8 +72,8 @@
 			<h2 class="fontsize_6">which browsers are supported?</h2>
 			<div class="padding_2">
 				<p>
-					The goal of QUID is cross-browser compatibility.  However, it is practically impossible to provide complete cross-browser compatibility without sacrificing common elements.
-					Chrome, FireFox, Opera, Safari, and Internet Explorer 9 are almost completely cross-browser compatible.  Internet Explorer 7 and 8 are supported, but have some issues.
+					The goal of QUID is cross-browser compatibility. However, it is practically impossible to provide complete cross-browser compatibility without sacrificing common elements.
+					Chrome, FireFox, Opera, Safari, and Internet Explorer 9 are almost completely cross-browser compatible. Internet Explorer 7 and 8 are supported, but have some issues.
 					As QUID matures, the cross-browser compatibility will improve.
 				</p>
 			</div>
@@ -89,7 +89,7 @@
 			<h2 class="fontsize_6">can I use QUID with HTML5 elements?</h2>
 			<div class="padding_2">
 				<p>
-					Yes.  Most of the HTML5 tags you will be using are &lt;DIV&gt; equivalents, such as &lt;HEADER&gt;, &lt;ARTICLE&gt;, and &lt;FOOTER&gt;.
+					Yes. Most of the HTML5 tags you will be using are &lt;DIV&gt; equivalents, such as &lt;HEADER&gt;, &lt;ARTICLE&gt;, and &lt;FOOTER&gt;.
 					QUID classes applied to these elements will work.
 				</p>
 			</div>
@@ -114,7 +114,7 @@
 			<div class="padding_2">
 				<p>
 					You can best contribute to QUID by visiting the <a href="<?php echo BASEURL;?>/forum/index.php" title="QUID ~ Forum">Forum</a> to suggest fixes, improvements, and solutions for others to use.
-					You can also ask your own questions and we will try to answer them as fast as we can.  Any input is welcome.
+					You can also ask your own questions and we will try to answer them as fast as we can. Any input is welcome.
 				</p>
 			</div>
 

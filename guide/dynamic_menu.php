@@ -41,7 +41,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ul class="dynamic_menu">
 	<li>
 		<a href="#" class="padding_2">Top-link</a>
@@ -128,7 +128,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<ul class="dynamic_menu">
 	<li>
 		<a href="#" class="padding_2">Top-link</a>

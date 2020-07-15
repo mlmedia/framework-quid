@@ -38,7 +38,7 @@
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<label for="example">Top Label</label>
 <input type="text" name="example" />';
 
@@ -56,7 +56,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="grid_3 alpha">
 	<label for="example">Label</label>
 </div>
@@ -84,7 +84,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<label for="example1">Label</label>
 <input type="text" class="margin_bottom_2" name="example1" />
 <input type="text" name="example2" />';
@@ -104,7 +104,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="grid_2 alpha">
 	<label for="example1">Label</label>
 </div>
@@ -145,7 +145,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="grid_3 alpha">
 	<label for="example">Label</label>
 </div>
@@ -181,7 +181,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<label for="example">Textarea</label>
 <textarea name="example" rows="6"></textarea>';
 
@@ -199,7 +199,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="grid_3">
 	<label for="example">Label</label>
 </div>
@@ -234,7 +234,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="grid_3 alpha">
 	<label for="example">Label</label>
 </div>
@@ -275,7 +275,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="grid_3 alpha">
 	<label for="example">Label</label>
 </div>
@@ -320,7 +320,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_6">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="grid_3 alpha">
 	<label for="example">Label</label>
 </div>
@@ -353,7 +353,7 @@ echo convert_code($content);
 			<div class="border_2 padding_2 margin_bottom_10">
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<div class="grid_3 alpha">
 	<label>Label</label>
 </div>

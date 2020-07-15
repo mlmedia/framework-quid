@@ -44,7 +44,7 @@
 						Link to the QUID CSS and JavaScript files in the <i><b>&lt;HEAD&gt;</b></i> element of the HTML page.
 						It is recommended that you use full links and not relative links (as in the example below) if you are using server-side <i>includes</i> or have a complex site directory.
 						<div class="margin_top_2">
-<?php
+							<?php
 $code = '<link rel="stylesheet" type="text/css" media="all" href="quidkit/quid.css" />
 <script type="text/javascript" src="quidkit/quid.js"></script>';
 echo convert_code($code);
@@ -79,7 +79,7 @@ echo convert_code($code);
 							Standards are good for the web.
 						</li>
 						<li class="margin_bottom_1">
-							Creativity is good for the substance of a site.  Standards are good for the way a site is built.
+							Creativity is good for the substance of a site. Standards are good for the way a site is built.
 						</li>
 					</ul>
 				</div>
@@ -94,7 +94,7 @@ echo convert_code($code);
 					</li>
 					<li class="margin_bottom_1">
 						<a href="http://960.gs/" target="_blank" title="960 Grid System">960 Grid System</a>.
-						The 960 Grid System was the primary inspiration for the horizontal structure of the QUID system.  When you
+						The 960 Grid System was the primary inspiration for the horizontal structure of the QUID system. When you
 						first start using it and realize that you no longer have to spend hours of development time fine-tuning floats, widths, and clears,
 						you won't want to go back to your old ways.
 					</li>
@@ -106,11 +106,11 @@ echo convert_code($code);
 					<li class="margin_bottom_1">
 						<a href="http://jquerymobile.com/" target="_blank" title="jQuery Mobile">jQuery Mobile</a>.
 						jQuery Mobile uses a standardized set of classes and custom attributes to allow developers to easily make
-						websites for smartphones and tablets that look like apps.  I did not use jQuery mobile elements directly in development
+						websites for smartphones and tablets that look like apps. I did not use jQuery mobile elements directly in development
 						of the QUID framework, but my experience with the framework partially inspired QUID.
 					</li>
 					<li class="margin_bottom_1">
-						<a href="http://www.google.com/webfonts" title="Google Web Fonts" target="_blank">Google Web Fonts</a>.  Google provides a valuable open-source alternative to font replacement systems such as Cufon and Typekit with Web Fonts.
+						<a href="http://www.google.com/webfonts" title="Google Web Fonts" target="_blank">Google Web Fonts</a>. Google provides a valuable open-source alternative to font replacement systems such as Cufon and Typekit with Web Fonts.
 						They streamline the process and make it very standards-compatible by condensing the needed markup to a few lines that can be placed in the <b><i>&lt;HEAD&gt;</i></b> element of your site.
 					</li>
 					<li class="margin_bottom_1">
