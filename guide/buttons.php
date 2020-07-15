@@ -34,7 +34,7 @@
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<a href="#" class="newbutton">
 	<span class="background_1">New Button</span>
 </a>';
@@ -85,7 +85,7 @@ echo convert_code($content);
 					<input class="button" type="submit" value="Submit" />
 				</div>
 				<div class="grid_9 omega">
-<?php
+					<?php
 $content = '<input class="button" type="submit" value="Submit" />';
 echo convert_code($content);
 ?>
@@ -96,7 +96,7 @@ echo convert_code($content);
 					<button class="button" type="button">Submit</button>
 				</div>
 				<div class="grid_9 omega">
-<?php
+					<?php
 $content = '<button class="button" type="button">Submit</button>';
 echo convert_code($content);
 ?>
@@ -107,7 +107,7 @@ echo convert_code($content);
 					<a class="button" href="#">Submit</a>
 				</div>
 				<div class="grid_9 omega">
-<?php
+					<?php
 $content = '<a class="button" href="#">Submit</a>';
 echo convert_code($content);
 ?>
@@ -137,22 +137,22 @@ echo convert_code($content);
 				</div>
 				<?php for($i=1;$i<=5;$i++): ?>
 
-					<div class="margin_top_2">
-						<div class="grid_3 alpha">
-							<div class="margin_bottom_2">
-								<input class="button button_<?php echo $i;?>" type="submit" value="Submit" />
-							</div>
+				<div class="margin_top_2">
+					<div class="grid_3 alpha">
+						<div class="margin_bottom_2">
+							<input class="button button_<?php echo $i;?>" type="submit" value="Submit" />
 						</div>
-						<div class="grid_9 omega">
+					</div>
+					<div class="grid_9 omega">
 
-<?php
+						<?php
 $content = '<input class="button button_' . $i . '" type="submit" value="Submit" />';
 echo convert_code($content);
 ?>
-						</div>
-
-						<div class="clear"></div>
 					</div>
+
+					<div class="clear"></div>
+				</div>
 
 				<?php endfor; ?>
 
@@ -174,21 +174,21 @@ echo convert_code($content);
 
 				<?php for($i=1;$i<=3;$i++): ?>
 
-					<div class="margin_top_2">
-						<div class="grid_3 alpha">
-							<div class="margin_bottom_2">
-								<input class="button rounded_<?php echo $i;?>" type="submit" value="Submit" />
-							</div>
+				<div class="margin_top_2">
+					<div class="grid_3 alpha">
+						<div class="margin_bottom_2">
+							<input class="button rounded_<?php echo $i;?>" type="submit" value="Submit" />
 						</div>
-						<div class="grid_9 omega">
+					</div>
+					<div class="grid_9 omega">
 
-<?php
+						<?php
 $content = '<input class="button rounded_' . $i . '" type="submit" value="Submit" />';
 echo convert_code($content);
 ?>
-						</div>
-						<div class="clear"></div>
 					</div>
+					<div class="clear"></div>
+				</div>
 				<?php endfor; ?>
 
 			</div>
@@ -203,7 +203,7 @@ echo convert_code($content);
 			<h3 class="fontsize_5">{ padding }</h3>
 			<div class="padding_2">
 				<p>
-					The padding classes change the size and dimensions of a button.  Read more about padding in the <a href="<?php echo BASEURL;?>/guide/structure.php">Structure section</a>.
+					The padding classes change the size and dimensions of a button. Read more about padding in the <a href="<?php echo BASEURL;?>/guide/structure.php">Structure section</a>.
 				</p>
 			</div>
 
@@ -211,7 +211,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<input class="button padding_3" type="submit" value="Submit" />';
 
 echo convert_code($content);
@@ -226,7 +226,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<input class="button padding_left_8 padding_right_8" type="submit" value="Submit" />';
 
 echo convert_code($content);
@@ -249,21 +249,21 @@ echo convert_code($content);
 
 				<?php for($i=2;$i<=7;$i++): ?>
 
-					<div class="margin_top_2">
-						<div class="grid_3 alpha">
-							<div class="margin_bottom_2">
-								<input class="button fontsize_<?php echo $i;?>" type="submit" value="Submit" />
-							</div>
+				<div class="margin_top_2">
+					<div class="grid_3 alpha">
+						<div class="margin_bottom_2">
+							<input class="button fontsize_<?php echo $i;?>" type="submit" value="Submit" />
 						</div>
-						<div class="grid_9 omega">
+					</div>
+					<div class="grid_9 omega">
 
-<?php
+						<?php
 $content = '<input class="button fontsize_' . $i . '" type="submit" value="Submit" />';
 echo convert_code($content);
 ?>
-						</div>
-						<div class="clear"></div>
 					</div>
+					<div class="clear"></div>
+				</div>
 
 				<?php endfor; ?>
 			</div>
@@ -279,7 +279,7 @@ echo convert_code($content);
 
 				<div class="font_2 margin_bottom_1">HTML</div>
 				<div class="margin_bottom_1">
-<?php
+					<?php
 $content = '<a href="#" class="button button_5 fontsize_6 rounded_2 padding_right_4 padding_left_4">
 	<b>JOIN NOW</b><br />
 	<span class="fontsize_3">Register for FREE!</span>
